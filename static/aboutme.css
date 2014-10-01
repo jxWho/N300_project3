@@ -1,0 +1,40 @@
+body{
+  background-color:#FFFFCC;
+}
+h1 {
+  color: #FF9966;
+  text-shadow: 3px 3px #666666;
+  margin-left:43%;
+
+}
+
+#main_container{
+  border: 1px dashed;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+a{
+  text-decoration: None;
+}
+
+a:link{
+  border: 3px outset;
+  padding: 4px;
+  border-radius: 20px;
+  margin-left: 43%;
+}
+
+a:hover {
+  opacity: 0.4;
+}
+
+ul li {
+  list-style: None;
+}
+
+strong {
+  color: #FF9966;
+  margin-right: 15px;
+  font-style: oblique;
+}

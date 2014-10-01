@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="./static/index.css" type="text/css" >
   <meta charset="UTF-8">
   <title></title>
 </head>
@@ -8,13 +9,15 @@
   <div>
     <h1>Favorite Movies</h1>
     <ul>
-      <li><a href="./starwar.html"><img src="./pics/Star_Wars_Logo.png" alt="star_wars" width="200"></a></li>
-      <li><a href="./sleeplessInSeattle.html"><img src="./pics/Sleepless_in_seattle.jpg" alt="sleepless" width="200"></a></li>
-      <li><a href="./leon.html"><img src="./pics/Leon.jpg" alt="leon" width="200"></a></li>
+      <li class="rotate_left"><a href="./starwar.html"><img src="./pics/Star_Wars_Logo.png" alt="star_wars" ></a></li>
+      <li><a href="./sleeplessInSeattle.html"><img src="./pics/Sleepless_in_seattle.jpg" alt="sleepless" ></a></li>
+      <li class="rotate_right"><a href="./leon.html"><img src="./pics/Leon.jpg" alt="leon" ></a></li>
+      <div class="clear"></div>
     </ul>
   </div>
-  <a href="./aboutme.html"><strong>About Me</strong></a>
-  <br>
-  <a href="https://github.com/jxWho/N300_project2">Fork on GitHub</a>
+  <div class="clear" id="page_link">
+    <a href="./aboutme.html">About Me</a>
+    <a href="https://github.com/jxWho/N300_project3">Fork on GitHub</a>
+  </div>
 </body>
 </html>
